@@ -5,7 +5,7 @@ import (
 	"os"
 	"log"
 
-	"github.com/encodedguy/recontrails/securitytrails"
+	"securitytrails"
 )
 
 func main() {
@@ -22,7 +22,5 @@ func main() {
 		log.Panicln(err)
 	}
 
-	fmt.Printf(
-		"APIKey Valid: %t", info.Success
-	)
+	fmt.Printf("APIKey Valid: %t", info.Success)
 }
