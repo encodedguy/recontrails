@@ -1,4 +1,5 @@
-## API Client written in Go to query SecurityTrails
+# API Client written in Go to query SecurityTrails
 
-# Usage : ./main <domain>
+## Usage
+### ./main <domain>
 
