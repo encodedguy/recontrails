@@ -36,3 +36,5 @@ func main() {
 	for _, value := range dnsa.Organizations{
 		fmt.Printf("%s\n", value)
 	}
+	fmt.Printf("%s", dnsa.Organizations[1])
+}
